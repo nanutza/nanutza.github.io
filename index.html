@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <TITLE>Nanutza's DevBootCamp Journey</TITLE>
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <style>
     html, body {
  		height: 100%;
@@ -19,6 +20,10 @@
       h1 {
         font-family: 'Tangerine', serif;
         font-size: 48px;
+    }
+      h2 {
+        font-family: 'Tangerine', serif;
+        font-size: 36px;
       }
       body {
         font-family: 'Verdana', sans-serif;
@@ -32,7 +37,7 @@
   </head>
   
   <body>
-  	<table style ="float:center" width=600>
+  	<table style ="float:center">
   	
   	<tr>
   		<td>
@@ -41,25 +46,57 @@
     </tr>
     
     <tr>
-    	<td>
-    	<img src="img/nanucanz.png">
-    	<p style ="font-size:9px;"> Photo Credit <a href="https://bitmoji.com/">bitmoji</a> &nbsp;&nbsp;&nbsp;<a href="https://creativecommons.org/licenses/by-sa/2.0/">Public License </a>
+    	<td >
+      <table cellpadding=15>
+        <tr>
+          <td>
+    	       <img src="img/nanucanz.png" alt="bitmoji: Nanutza Canz">
+    	       <p style ="font-size:9px;"> Photo Credit <a href="https://bitmoji.com/">bitmoji</a> &nbsp;&nbsp;&nbsp;<a href="https://creativecommons.org/licenses/by-sa/2.0/">Public License </a>
+          </td>
+          <td>
+            <h2>Stages</h2>
+              <ul>
+                <li><a href="http://devbootcamp.com/apply/">Application</a></li>
+                <li><a href="phase0.html">Phase zero</a></li>
+                <li><a href="bootcamp.html">Bootcamp</a></li>
+              </ul>
+          </td>
+	       </tr>
+      </table>
+    </td>
+	 </tr>
+	 <tr>
+      <td>
+          <form action="https://httpbin.org/post" method="post">
+          <div>
+            <label>Email:</label>
+            <input type="email" name="email">
+          </div>
+          <div>
+            <label>Password:</label>
+            <input type="password" name="password">
+          </div>
+          <div>
+            <label>What's your level of programming:</label>
+              <select name="level">
+                <option value="level">Beginner</option>
+                <option value="level">Intermediate</option>
+                <option value="level">Web guru!</option>
+              </select>
+          </div>
+          <textarea name="textarea" rows="10" cols="50">Tell me about your prior experience in web development</textarea>
+          <div>
+            <label> Gender:</label> <br>
+              <input type="radio" name="gender" value="male"> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other
+          </div>
+          <button type="submit">Submit</button>
+          </form>
+      </td>
+    </tr>
+</table>
 
-		</td>
-	</tr>
-	
-	<tr>
-		<td>
-    	<h2>Stages</h2>
-    	<ul>
-    		<li><a href="http://devbootcamp.com/apply/">Application</a></li>
-    		<li><a href="phase0.html">Phase zero</a></li>
-    		<li><a href="bootcamp.html">Bootcamp</a></li>
-    	</ul>
-     	</td>
- 	</tr>
-
-    </table>
 
      <div id="navigation" align="center">
        
