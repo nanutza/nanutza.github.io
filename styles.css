@@ -1,15 +1,38 @@
-html, body {
+html {
+	background: url('img/stars.jpg');
+	text-align: center;
+}
+body {
 		background: lightblue;
- 		height: 100%;
- 		width:100%;
+ 		height: 90%;
+ 		width:90%;
+ 		min-width: 600px;
 		}
 
 div#navigation {
  		position: fixed;
  		top: 0;
- 		font-size: 10px;
- 		width: 100%;
+ 		font-size: 12px;
+ 		width: 85%;
+ 		text-align:center;
+		padding-left: 20px;
+		padding-right: 20px;
 		}
+ul.nav{
+	list-style-type: none;
+	padding: 10px;
+	background-color: #dddddd;
+}
+li.nav{
+	display:inline;
+}
+li.nav a{
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li.nav a:hover {
+	background-color: yellow;
+}
 h1 {
     font-family: 'Tangerine', serif;
     font-size: 48px;
@@ -19,10 +42,39 @@ h2 {
         font-size: 36px;
 }
 body {
-    font-family: 'Verdana', sans-serif;
-     
+    font-family: 'Verdana', sans-serif;  
+}
+a:hover {
+	color:red;
+	background-color: lightyellow;
+}
+a:visited {
+	color:purple;
+}
+img{
+	box-shadow: 10px 10px lightgrey;
 }
 table { 
 	margin-left: auto;
 	margin-right: auto;
+	padding: 30px;
+}
+td {
+	vertical-align: top;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+table.planner{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: white;
+	border: 5px;
+	border-color:blue;
+	border-radius: 10px;
+}
+td.planner {
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
 }
