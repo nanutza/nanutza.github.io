@@ -1,0 +1,28 @@
+html, body {
+		background: lightblue;
+ 		height: 100%;
+ 		width:100%;
+		}
+
+div#navigation {
+ 		position: fixed;
+ 		top: 0;
+ 		font-size: 10px;
+ 		width: 100%;
+		}
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+h2 {
+        font-family: 'Tangerine', serif;
+        font-size: 36px;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+     
+}
+table { 
+	margin-left: auto;
+	margin-right: auto;
+}
