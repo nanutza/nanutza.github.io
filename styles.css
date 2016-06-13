@@ -6,7 +6,7 @@ body {
 		background: lightblue;
  		height: 90%;
  		width:90%;
- 		min-width: 600px;
+ 		min-width: 800px;
 		}
 
 div#navigation {
@@ -77,4 +77,19 @@ td.planner {
 	vertical-align: top;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+@media screen and (max-width: 800px) {
+  img {
+    width:50%;
+  }
+  h1{
+  	font-size:24px;
+  }
+  h2{
+  	font-size:18px;
+  }
+  body{
+  	font-size: .8em;
+  }
+
 }
